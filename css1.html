@@ -1,0 +1,268 @@
+<html>
+
+<head>
+    <title>
+        Marvel Characters
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            color: #E62429;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header h1 span {
+            color: #333;
+        }
+
+        .search-bar {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .search-bar input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            width: 300px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .character-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            height: 280px;
+            padding: 20px;
+            padding-top: 120px;
+        }
+
+        .character-card {
+            background: linear-gradient(135deg, #3b82f6, #9333ea);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            width: 300px;
+            position: relative;
+        }
+
+        .character-card:nth-child(2) {
+            background: linear-gradient(135deg, #f97316, #f43f5e);
+        }
+
+        .character-card:nth-child(3) {
+            background: linear-gradient(135deg, #3b82f6, #9333ea);
+        }
+
+        .character-card:nth-child(4) {
+            background: linear-gradient(135deg, #ef4444, #3b82f6);
+        }
+
+        .character-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .character-card h2 {
+            margin-left: 203px;
+            margin-top: -10px;
+            font-size: 18px;
+        }
+
+        #erty {
+            margin: -10px;
+            font-size: 14px;
+            margin-left: 180px;
+        }
+
+        #blaw {
+            margin-left: 196px;
+            margin-top: -10px;
+            font-size: 18px;
+        }
+
+        .character-card p {
+            margin: -10px;
+            font-size: 14px;
+            margin-left: 194px;
+        }
+
+        #capta {
+            margin-left: 165px;
+            margin-top: -10px;
+            font-size: 18px;
+
+        }
+
+        #imgiron {
+            position: relative;
+            top: -20px;
+            left: -46px;
+        }
+
+        #black {
+            position: relative;
+            top: -140px;
+            left: -52px;
+            height: 424px;
+        }
+
+        #spider {
+            position: relative;
+            top: -154px;
+            left: -27px;
+            height: 30rem;
+            width: 20rem;
+        }
+
+        #capta {
+            margin-left: -93px;
+            margin-top: -83px;
+            font-size: 18px;
+        }
+
+
+
+
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin-top: 170px;
+            border-top: 1px solid #ccc;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>
+            MARVEL
+            <span>
+                Characters
+            </span>
+        </h1>
+        <div class="search-bar">
+            <input placeholder="Search Marvel" type="text" />
+        </div>
+        <div class="nav-links">
+            <a href="#">
+                Characters
+            </a>
+            <a href="#">
+                Comics
+            </a>
+            <a href="#">
+                Stories
+            </a>
+            <a href="#">
+                Movies
+            </a>
+            <a href="#">
+                TV Shows
+            </a>
+        </div>
+    </div>
+    <div class="character-cards">
+        <div class="character-card">
+
+            <h2 id="capt">
+                Captain America
+            </h2>
+            <p>
+                Steve Rogers
+            </p>
+            <img id="capta" src="captain_america_by_hz_designs_dcrcghw-125s.png" alt="">
+        </div>
+        <div class="character-card">
+
+            <h2>
+                Iron Man
+            </h2>
+            <p>
+                Tony Stark
+            </p>
+            <img id="imgiron" src="iron_man_png___21__by_tahfimism01_depg2b9-pre.png" alt="">
+        </div>
+        <div class="character-card">
+
+            <h2 id="blaw">
+                Black Widow
+            </h2>
+            <p id="erty">
+                Natasha Romanoff
+            </p>
+            <img id="black" src="frame-heart-tree-flower-cartoon-removebg-preview.png" alt="">
+        </div>
+        <div class="character-card">
+
+            <h2>
+                Spider-Man
+            </h2>
+            <p>
+                Peter Parker
+            </p>
+            <img id="spider" src="1000032164-removebg-preview.png" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#">
+            Previous
+        </a>
+        <div class="social-links">
+            <a href="#">
+                Facebook
+            </a>
+            <a href="#">
+                Instagram
+            </a>
+            <a href="#">
+                Twitter
+            </a>
+        </div>
+        <a href="#">
+            Next
+        </a>
+    </div>
+</body>
+
+</html>
